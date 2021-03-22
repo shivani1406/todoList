@@ -97,7 +97,7 @@ if(founditems.length===0){
   res.redirect("/");
 }
 else{
-  res.render("Lists",{listTitle:"Today",newListItems:founditems});
+  res.render("lists",{listTitle:"Today",newListItems:founditems});
 }
 
   });
