@@ -8,7 +8,6 @@ app.use(bodyparser.urlencoded({extended:true}));
 app.use(express.static('public'));
 // var items=["Buy Food"];
 // mongoose.connect("mongodb://localhost:27017/todolistDB",{useNewUrlParser:true,useUnifiedTopology: true });
-mongoose.connect("mongodb+srv://shivani:shivani123@cluster0.1tgcw.gcp.mongodb.net/todolistDB?retryWrites=true&w=majority",{useNewUrlParser:true,useUnifiedTopology: true });
 
 const itemsSchema={
   name:String
